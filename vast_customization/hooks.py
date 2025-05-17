@@ -136,7 +136,7 @@ app_license = "MIT"
 # 	"frappe.desk.doctype.event.event.get_events": "vast_customization.event.get_events"
 # }
 #
-# each overriding function accepts a `data` argument;
+# Each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
@@ -178,4 +178,10 @@ user_data_fields = [
 # auth_hooks = [
 # 	"vast_customization.auth.validate"
 # ]
+
+fixtures = [
+    {"dt": "Letter Head"},
+    {"dt": "Print Format"},
+]
+
 
