@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vast_customization *.css
+recursive-include vast_customization *.csv
+recursive-include vast_customization *.html
+recursive-include vast_customization *.ico
+recursive-include vast_customization *.js
+recursive-include vast_customization *.json
+recursive-include vast_customization *.md
+recursive-include vast_customization *.png
+recursive-include vast_customization *.py
+recursive-include vast_customization *.svg
+recursive-include vast_customization *.txt
+recursive-exclude vast_customization *.pyc
