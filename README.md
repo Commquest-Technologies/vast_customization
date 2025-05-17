@@ -1,6 +1,6 @@
 ## Vast Customization
 
-Custom Apps for VAST Group
+ERPNext customizations designed to enhance the ERP system for Vast Protection Solutions.
 
 #### License
 
