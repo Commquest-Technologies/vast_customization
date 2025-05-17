@@ -180,8 +180,73 @@ user_data_fields = [
 # ]
 
 fixtures = [
-    {"dt": "Letter Head"},
-    {"dt": "Print Format"},
+    {
+        "dt": "Letter Head",
+        "filters": [
+            ["name", "in", [
+                "Blank Letterhead",
+                "Bonram Letterhead",
+                "Bonram No Banking Letterhead",
+                "Vast Protection No Banking",
+                "Vast Protection Solutions FNB",
+                "Vast Protection Solutions",
+                "Capitec Vast",
+                "Dzimelela Letterhead",
+                "Dzimelela No Banking Details",
+                "Mzila Energies Letterhead"
+            ]]
+        ]
+    },
+    {
+        "dt": "Print Format",
+        "filters": [
+            ["name", "in", [
+                "Ngaa Purchase Order",
+                "Ngaa Issue",
+                "Ngaa Quotation",
+                "Ngaa Sales Invoice",
+                "Custom Delivery Note",
+                "Custom Quotation",
+                "Custom Sales Invoice",
+                "Custom Payment Entry",
+                "CITY OF JOBURG",
+                "D note Dzi",
+                "Dn",
+                "d note",
+                "tshwane",
+                "Quote 1",
+                "quote",
+                "IMPERIAL",
+                "Dzimelela Material Request",
+                "Custom Material Request",
+                "Dzimelela Purchase Order",
+                "Custom Purchase Order",
+                "Dzimelela Supplier Invoice",
+                "Custom Supplier Invoice",
+                "Dzimelela Supplier Quotation",
+                "Custom Supplier Quotation",
+                "Dzimelela Sales Invoice",
+                "Dzimelela Sales Order",
+                "Custom Sales Order",
+                "Ngaa Delivery Note",
+                "Ngaa Sales Order",
+                "Ngaa Request For Quotation",
+                "Ngaa Payment Request",
+                "Ngaa Purchase Receipt",
+                "Ngaa Purchase Invoice",
+                "Ngaa Supplier Quotation",
+                "Ngaa Material Request",
+                "Pastel Quotation",
+                "Quest Supplier Quotation",
+                "Quest Request For Quotation",
+                "Quest Material Request",
+                "Quest Sales Order",
+                "Quest Sales Invoice",
+                "Quest Quotation"
+            ]]
+        ]
+    }
 ]
+
 
 
